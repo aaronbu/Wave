@@ -13,6 +13,21 @@ collections:
     template: blog
     filter: tag:blog
     data: tag.blog
+  /translators/:
+    permalink: /translators/{slug}/
+    template: index
+    filter: tag:translators
+    data: tag.translators
+  /translations/:
+    permalink: /translations/{slug}/
+    template: index
+    filter: tag:translations
+    data: tag.translations
+  /theories/:
+    permalink: /theories/{slug}/
+    template: index
+    filter: tag:theories
+    data: tag.theories
 
 taxonomies:
   tag: /tag/{slug}/
